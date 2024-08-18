@@ -4,6 +4,8 @@
 
 This repository contains code for extracting invoice details from PDFs using Optical Character Recognition (OCR) and object detection using the YOLOv8 model. The project leverages various tools and libraries, including `pdfplumber`, `pytesseract`, and `YOLOv8`, to process PDF files, extract text, and detect objects in images.
 
+[Google colab link: https://colab.research.google.com/drive/1Cnw8r5y-mFpQqy1Ph4BQPYffjP2me0g-](https://colab.research.google.com/drive/1Cnw8r5y-mFpQqy1Ph4BQPYffjP2me0g-)
+
 ## Project Overview
 
 The main objectives of this project are:
