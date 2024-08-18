@@ -1,6 +1,6 @@
-# InvoiceTextDetect
+# InvoiceTextDetect🔎
 
-# Invoice OCR and YOLOv8 Object Detection Project
+# Invoice OCR🔎 and YOLOv8 Object Detection Project✨
 
 This repository contains code for extracting invoice details from PDFs using Optical Character Recognition (OCR) and object detection using the YOLOv8 model. The project leverages various tools and libraries, including `pdfplumber`, `pytesseract`, and `YOLOv8`, to process PDF files, extract text, and detect objects in images.
 
@@ -77,6 +77,8 @@ process_pdf("/content/pdfs/invoice2.pdf", use_ocr=True)
    results = model.train(data="/content/Namit_ocr-5/data.yaml", epochs=40, imgsz=640, batch=8)
    ```
 2. Run object detection on images.
+
+<img src="Picture1.png" alt="My Photo" width="300"/>
 
 # Results
 1. The extracted invoice data will be printed to the console.
