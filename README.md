@@ -76,10 +76,10 @@ process_pdf("/content/pdfs/invoice2.pdf", use_ocr=True)
    model = YOLO("yolov8n.pt")
    results = model.train(data="/content/Namit_ocr-5/data.yaml", epochs=40, imgsz=640, batch=8)
    ```
-  <img src="trained.png" alt="My Photo" width="300"/>
+  <img src="trained.jpg" alt="My Photo" width="300"/>
 2. Run object detection on images.
 
-<img src="invoice-2.png" alt="My Photo" width="300"/>
+<img src="invoice-2.jpg" alt="My Photo" width="300"/>
 
 # Results
 1. The extracted invoice data will be printed to the console.
